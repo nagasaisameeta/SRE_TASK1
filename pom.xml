@@ -22,7 +22,7 @@
   
   <distributionManagement>
         <repository>
-                <id>Sidgsrelease</id>
+                <id>sairelease</id>
                 <url>http://54.146.233.12:8081/repository/sairelease/</url>
                 <layout>default</layout>
             <releases>
