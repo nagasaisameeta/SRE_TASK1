@@ -14,7 +14,7 @@ node{
                         [
                                 artifactId: 'sriproj',
                                 classifier: '',
-                                file: 'target/sriproj-3.0.0.war',
+                                file: 'target/sriproj-3.5.0.war',
                                 type: 'war'
                                 ]
                         ],
@@ -24,6 +24,6 @@ node{
                                 nexusVersion: 'nexus3',
                                 repository: 'sairelease/',
                                 protocol: 'http',
-                                version: '3.0.0'
+                                version: '3.5.0'
                         }
         }
