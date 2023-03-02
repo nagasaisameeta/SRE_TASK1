@@ -9,4 +9,21 @@ node{
                 def mavenCMD = "${mavenHome}/bin/mvn"
                 sh "${mavenCMD} clean package"
                 }
-
+                stage('upload war to nexus'){
+                        nexusArtifactUploader artifacts: [
+                        [
+                                artifactId: 'sriproj',
+                                classifier: '',
+                                file: 'target/sriproj-1.0-SNAPSHOT.war',
+                                type: 'war'
+                                ]
+                        ],
+                                credentialsId: 'nexus3',
+                                groupId: 'in.sri',
+                                nexusUrl: 'http://43.207.78.204:8081/repository/Sidgsrelease/',
+                                nexusVersion: 'nexus3',
+                                repository: 'Sidgsrelease/',
+                                protocol: 'http',
+                                version: '1.0.0'
+                        }
+        }
