@@ -14,7 +14,7 @@ node{
                         [
                                 artifactId: 'sriproj',
                                 classifier: '',
-                                file: 'target/sriproj-1.0-SNAPSHOT.war',
+                                file: 'target/sriproj-3.0.0.war',
                                 type: 'war'
                                 ]
                         ],
