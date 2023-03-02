@@ -20,9 +20,9 @@ node{
                         ],
                                 credentialsId: 'nexus3',
                                 groupId: 'in.sri',
-                                nexusUrl: 'http://43.207.78.204:8081/repository/Sidgsrelease/',
+                                nexusUrl: 'http://54.146.233.12:8081/repository/sairelease/',
                                 nexusVersion: 'nexus3',
-                                repository: 'Sidgsrelease/',
+                                repository: 'sairelease/',
                                 protocol: 'http',
                                 version: '3.0.0'
                         }
