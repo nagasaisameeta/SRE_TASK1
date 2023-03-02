@@ -24,6 +24,6 @@ node{
                                 nexusVersion: 'nexus3',
                                 repository: 'Sidgsrelease/',
                                 protocol: 'http',
-                                version: '1.0.0'
+                                version: '3.0.0'
                         }
         }
